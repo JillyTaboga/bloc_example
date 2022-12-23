@@ -1,0 +1,26 @@
+name: bloc_example
+description: Um projeto simples mostrando o uso do Bloc com o fluter
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+dependencies:
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  freezed: ^2.3.2
+  json_serializable: ^6.5.4
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
