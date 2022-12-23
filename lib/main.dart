@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'data/data_sources/love_api.dart';
 import 'data/data_sources/love_api_open_impl.dart';
 import 'data/data_sources/translate_api.dart';
-import 'data/data_sources/translate_api_google_impl.dart';
+import 'data/data_sources/translate_api_mymemory_impl.dart';
 import 'data/packages/http_client.dart';
 import 'data/packages/http_client_dio_impl.dart';
 import 'data/repositories/love_repository_impl.dart';
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           RepositoryProvider<TranslateApi>(
-            create: (context) => TranslateGoogleApi(
+            create: (context) => TranslateMyMemoryApi(
               context.read<HttpClient>(),
             ),
           ),
