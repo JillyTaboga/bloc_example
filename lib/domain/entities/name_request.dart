@@ -1,6 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'name_request.freezed.dart';
+part 'name_request.g.dart';
 
 @freezed
 class NameTest with _$NameTest {
