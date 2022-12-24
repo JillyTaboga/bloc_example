@@ -2,6 +2,8 @@
 
 Projeto de estudo mostrando o uso do Bloc, especialmente o Cubit para lidar com a interface, injetar dependencias e fornecer controladores.
 
+Exemplo do app: <https://lovepercentage.web.app/>
+
 Para o projeto funcionar é preciso injetar uma variável via DartDefine como descrito no [main.dart].
 
 ## Injeção de dependencia
