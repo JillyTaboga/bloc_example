@@ -2,6 +2,8 @@
 
 Projeto de estudo mostrando o uso do Bloc, especialmente o Cubit para lidar com a interface, injetar dependencias e fornecer controladores.
 
+O programa consiste de uma interface para se colcoar dois nomes e um botão para checar a compatibilidade dos nomes via Api Love, ela responde uma porcentagem de compatibilidade e uma frase motivacional em inglês, então essa frase é passada por uma api de tradução e é exibida a frase já traduzida para o português.
+
 Exemplo do app: <https://lovepercentage.web.app/>
 
 Para o projeto funcionar é preciso injetar uma variável via DartDefine como descrito no [main.dart].
