@@ -7,7 +7,7 @@ abstract class HttpClient {
   Future<HttpResponse> post(
     String url, {
     Map<String, String>? query,
-    Map<String, dynamic>? body,
+    dynamic body,
     Map<String, String>? headers,
   });
 }
